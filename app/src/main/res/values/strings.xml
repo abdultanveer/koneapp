@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">koneapp</string>
+    <string name="wishes">Happy Birthday Sam!</string>
+    <string name="wisher">From Emma</string>
 </resources>
