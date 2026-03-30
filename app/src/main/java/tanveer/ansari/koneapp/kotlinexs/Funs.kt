@@ -8,6 +8,10 @@ fun main() {
 
     //trailinng lamda
 
+    val sb: Shape = Triangle(30.0)
+        //Circle(20.0)
+    print(sb.computeArea())
+
     encodeMsg {
             input -> input.toLowerCase()
     }

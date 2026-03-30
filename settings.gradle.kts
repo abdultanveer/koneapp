@@ -21,4 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "koneapp"
 include(":app")
- 
+include(":mylib")
