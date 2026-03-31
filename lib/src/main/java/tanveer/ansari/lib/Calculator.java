@@ -6,10 +6,10 @@ public class Calculator {
         return  a + b;
     }
 
-    int sureshMul(int a, int b, PhoneNumberListener secratarPhno){
+    void sureshMul(int a, int b, PhoneNumberListener secratarPhno){
         try {
             Thread.sleep(5000);
-            return a * b;
+            secratarPhno.onSuccess(a*b);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
